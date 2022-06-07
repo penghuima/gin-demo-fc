@@ -1,0 +1,43 @@
+{
+  "statefulConfig": {
+    "functionId": "30eae800-aa3c-42ce-bd38-938f91207c59",
+    "functionName": "gin_web_demo_mph1_devs",
+    "description": "hello world by serverless devs",
+    "runtime": "custom",
+    "handler": "index.handler",
+    "timeout": 30,
+    "initializer": "",
+    "initializationTimeout": 3,
+    "codeSize": 6436599,
+    "codeChecksum": "6648454110311565753",
+    "memorySize": 512,
+    "gpuMemorySize": null,
+    "environmentVariables": {},
+    "createdTime": "2022-06-07T03:53:11Z",
+    "lastModifiedTime": "2022-06-07T03:53:11Z",
+    "instanceConcurrency": 20,
+    "instanceSoftConcurrency": null,
+    "customContainerConfig": null,
+    "caPort": 9000,
+    "instanceType": "e1",
+    "layers": null,
+    "instanceLifecycleConfig": {
+      "preFreeze": {
+        "handler": "",
+        "timeout": 3
+      },
+      "preStop": {
+        "handler": "",
+        "timeout": 3
+      }
+    },
+    "customDNS": null,
+    "customRuntimeConfig": {
+      "command": [
+        "./target/main"
+      ],
+      "args": null
+    },
+    "name": "gin_web_demo_mph1_devs"
+  }
+}

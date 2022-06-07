@@ -1,0 +1,33 @@
+{
+  "domainName": "gin-web-demo-mph1-devs.learning-6-6.1581223139287319.cn-shenzhen.fc.devsapp.net",
+  "accountId": "1581223139287319",
+  "protocol": "HTTP",
+  "certConfig": {
+    "certName": null,
+    "privateKey": null,
+    "certificate": null
+  },
+  "tlsConfig": {
+    "minVersion": null,
+    "maxVersion": null,
+    "cipherSuites": null
+  },
+  "apiVersion": "2016-08-15",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/*",
+        "accountId": null,
+        "serviceName": "Learning-6-6",
+        "functionName": "gin_web_demo_mph1_devs",
+        "qualifier": null,
+        "methods": [
+          "GET",
+          "POST"
+        ]
+      }
+    ]
+  },
+  "createdTime": "2022-06-07T03:53:17Z",
+  "lastModifiedTime": "2022-06-07T03:53:17Z"
+}
